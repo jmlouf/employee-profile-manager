@@ -1,12 +1,12 @@
-DROP DATABASE IF EXISTS employees_db;
+DROP DATABASE IF EXISTS company_db;
 
-CREATE DATABASE employees_db;
+CREATE DATABASE company_db;
 
-USE employees_db;
+USE company_db;
 
 CREATE TABLE departments (
     id INT PRIMARY KEY,
-    department_name VARCHAR(30)
+    department VARCHAR(30)
 );
 
 CREATE TABLE roles (
